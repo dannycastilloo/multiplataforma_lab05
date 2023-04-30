@@ -33,7 +33,10 @@ namespace lab05
                 HorizontalOptions = LayoutOptions.Center
             };
 
-            button.Clicked += async (sender, args) => await label.RelRotateTo(360, 1000);
+            button.Clicked += async (sender, args) =>
+            {
+                await label.RelRotateTo(360, 1000);
+            };
 
             Content = new StackLayout
             {

@@ -53,10 +53,6 @@ namespace lab05
             {
                 await Navigation.PushAsync(new LocalImage());
             };
-            Item11.Clicked += async (sender, e) =>
-            {
-                await Navigation.PushAsync(new EmbeddedImage());
-            };
         }
     }
 }

@@ -14,7 +14,7 @@
             <Button Text="Click to Rotate Text!"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
-                    Clicked="OnButtonClicked "/>
+                    Clicked="OnButtonClicked" />
 
         </StackLayout>
     </ContentPage.Content>
